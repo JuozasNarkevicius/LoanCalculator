@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "strictNullChecks": true,
+        "strict": false,
+        "module": "es6",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "target": "es5",
+        "allowJs": true,
+        "watch": true,
+        "moduleResolution": "node"
+    },
+    "compileOnSave": true,
+    "exclude": [
+        "node_modules"
+    ]
+  }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="module" src="./services/housingLoan.js"></script>
+        <nav>
+            <a href="quickLoan.html">Quick Loan</a>
+            <a href="housingLoan.html">Housing Loan</a>
+            <a href="consumerLoan.html">Consumer Loan</a>
+        </nav>
+    </head>
+    <body>
+        <div>
+            <form id="formEl">
+                <br>
+                <label>Loan amount (€):</label><br>
+                <input type="number" name="amount" min="1" required><br><br>
+                <label>Maturity (months):</label><br>
+                <input type="number" name="maturity" min="1" required><br><br>
+                <label>Salary:</label><br>
+                <input type="number" name="salary" min="1" required><br><br>
+                <label>Number of children:</label><br>
+                <input type="number" name="children" min="0" required><br><br>
+                <button type="submit">Submit</button>
+            </form>
+            <br>
+            <label id="answer"></label>
+        </div>
+    </body>
+</html>
