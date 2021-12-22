@@ -18,5 +18,12 @@
         "semi": [2, "always"],
         "import/extensions": [2,"always"],
         "no-alert": "off"
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            }
+        }
     }
 }

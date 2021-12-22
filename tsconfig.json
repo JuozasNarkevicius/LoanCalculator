@@ -5,13 +5,15 @@
         "module": "es6",
         "noImplicitAny": true,
         "sourceMap": true,
-        "target": "es5",
         "allowJs": true,
+        "target": "es5",
         "watch": true,
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "outDir": "./lib"
     },
     "compileOnSave": true,
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "lib"
     ]
   }

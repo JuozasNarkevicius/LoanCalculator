@@ -1,6 +1,6 @@
 import HousingLoan from '../classes/housingLoan.js';
-import exceedsMax from './verification.js';
-import printLabel from './printLabel.js';
+import exceedsMax from '../helperFunctions/verification.js';
+import printLabel from '../helperFunctions/printLabel.js';
 
 const form = document.querySelector('#formEl') as HTMLFormElement;
 
